@@ -1,3 +1,8 @@
+#using scikit learn - ML package  with built in models for training and testing
+
+#Here we classify whether a new data point is male or female by giving input features as height , weight and shoe size 
+#and use Decision tree for model building
+
 from sklearn import tree 
 
 #model is decision tree which classifies each data point into one branch 
