@@ -3,11 +3,11 @@
 import tweepy
 from textblob import TextBlob
 
-consumer_key='2aBkhROslozQWBzap6zFxYFIe'
-consumer_secret='bLts6bAzUn9VNWRPCoGMjowugcEkAvMHmQjoTn6U3TBKxCbBv5'
+consumer_key='Your key'
+consumer_secret='Your secret token'
 
-access_key='895640034488991744-l4ADTbL74WehprC8hpVxcBEfgAxpTfH'
-access_secret='bgETlXZH2MERcQbEwM4he0QqEfY0pKgsTVHUuk1mgLvBn'
+access_key='Your access key '
+access_secret='Your access secret token '
 
 #creating authentication variable
 #to login into twitter via code 
@@ -17,7 +17,7 @@ auth.set_access_token(access_key,access_secret)
 
 api=tweepy.API(auth)
 
-twwets=api.search("fani")
+twwets=api.search("Key word you are searching for")
 
 for a in twwets:
 	# print(a.text)
